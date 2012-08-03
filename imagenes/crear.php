@@ -113,7 +113,7 @@
                     </label>
                     </div>
                 
-                   <?php if( !empty( $_FILES ) ): require '../include/imagenes.php';  $image = new Imagenes(); if( $image->create() == true ): echo '<h1>La imagen se subio con exíto</h1><br>'; endif;?>
+                   <?php if( !empty( $_FILES ) ): $image = new Imagenes(); if( $image->create() == true ): echo '<h1>La imagen se subio con exíto</h1><br>'; endif;?>
                 	
                    <img src="<?php echo $image->image ?>" width="300" height="200" />
                    
