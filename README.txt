@@ -14,9 +14,16 @@
   Location:		Mexíco
 
 /* THANKS */
-  Names ( Ulises Rodríguez ):
- 
-  Configuración:(
+  Names ( Ulises Rodríguez )
+
+/* DESCRIPCIÓN */
+  
+  Esta aplicación simple permite subir, editar, eliminar las imagenes y mostrarlas en coin-slider
+  
+  Esta aplicación simple permite subir, editar, eliminar las vídeos y mostrarlas en jwplayer	
+
+
+/* CONFIGURACIÓN */
   
   include/settings.php
    
@@ -51,14 +58,13 @@
 // Setting your url here http://www.domain.com/	
 	return 'http://www.domain.com/';
 			 
-  }  
   
   Ejecutar el archivo app-imgvid.sql en phpMyAdmin
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: IMGVID
 
 
 
