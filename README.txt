@@ -1,8 +1,4 @@
-﻿/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
-/* TEAM */
+﻿/* TEAM */
 
   Author		Ulises Rodríguez
   Site:			http://www.ulisesrodriguez.com	
